@@ -2,6 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b3a5c,50:4a6fa5,100:7FA8D1&height=220&section=header&text=Dawit%20Abdisa%20%E5%A4%A7%E5%8D%AB&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20%2F%20AI%20Engineer%20%C2%B7%20Suzhou%2C%20China&descAlignY=55&descSize=18" width="100%"/>
 
+### Software Engineer · AI Engineer · Networking & Security
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7FA8D1&center=true&vCenter=true&width=600&lines=Agentic+AI+%E2%80%A2+LangChain+%2F+LangGraph;LLM+%26+Network+Security+Red-Teaming;Full-Stack%3A+React+%2F+Node+%2F+Python+%2F+Java;CSC+Scholar+%E2%80%A2+USTC+%E2%80%A2+Suzhou%2C+China)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/ethioweb.net-1b3a5c?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.ethioweb.net)
@@ -26,8 +28,21 @@ Software / AI Engineer shipping full products end-to-end — applied AI (RAG, ag
 
 <img src="https://skillicons.dev/icons?i=python,ts,java,react,nodejs,fastapi,spring,postgres,redis,docker,linux,git&theme=dark" alt="tech stack icons" />
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
