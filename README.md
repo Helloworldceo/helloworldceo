@@ -85,6 +85,22 @@ Software / AI Engineer shipping full products end-to-end — applied AI (RAG, ag
 
 </div>
 
+## 🎮 Beyond the keyboard
+
+<div align="center">
+
+![PUBG](https://img.shields.io/badge/🎯_PUBG-F2A900?style=for-the-badge&logoColor=white)
+![Call of Duty](https://img.shields.io/badge/🪖_Call_of_Duty-2B2B2B?style=for-the-badge&logoColor=white)
+![Genshin Impact](https://img.shields.io/badge/⚔️_Genshin_Impact-1B263B?style=for-the-badge&logoColor=white)
+![8 Ball Pool](https://img.shields.io/badge/🎱_8_Ball_Pool-1B5E3A?style=for-the-badge&logoColor=white)
+![Chess](https://img.shields.io/badge/♟️_Chess-312E2B?style=for-the-badge&logoColor=white)
+![FIFA](https://img.shields.io/badge/🎮_FIFA-326295?style=for-the-badge&logoColor=white)
+![UNO](https://img.shields.io/badge/🃏_UNO-D32F2F?style=for-the-badge&logoColor=white)
+![Among Us](https://img.shields.io/badge/🚀_Among_Us-C51111?style=for-the-badge&logoColor=white)
+![Football](https://img.shields.io/badge/⚽_Football-2E7D32?style=for-the-badge&logoColor=white)
+
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7FA8D1,50:4a6fa5,100:1b3a5c&height=120&section=footer" width="100%"/>
 
 <div align="center">
