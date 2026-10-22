@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b3a5c,50:4a6fa5,100:7FA8D1&height=200&section=header&text=Dawit%20Abdisa%20%E5%A4%A7%E5%8D%AB&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=50" width="100%"/>
 
-### Software Engineer · AI Engineer · Networking & Security
+### Software Engineer · AI Engineer · Solution Engineer · Networking & Security
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7FA8D1&center=true&vCenter=true&width=600&lines=Agentic+AI+%E2%80%A2+LangChain+%2F+LangGraph;LLM+%26+Network+Security+Red-Teaming;Full-Stack%3A+React+%2F+Node+%2F+Python+%2F+Java;CSC+Scholar+%E2%80%A2+USTC+%E2%80%A2+Suzhou%2C+China)](https://git.io/typing-svg)
 
