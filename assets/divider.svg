@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1">
+      <stop offset="0" stop-color="#4a6fa5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4a6fa5" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#4a6fa5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="g"><stop offset="0" stop-color="#cfe3f7"/><stop offset="1" stop-color="#7FA8D1" stop-opacity="0"/></radialGradient>
+    <style>
+      .d { stroke: #7FA8D1; stroke-width: 1.2; stroke-dasharray: 4 14; animation: m 2.5s linear infinite; opacity: .6 }
+      @keyframes m { to { stroke-dashoffset: -36 } }
+    </style>
+  </defs>
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#l)" stroke-width="1"/>
+  <line class="d" x1="100" y1="12" x2="1100" y2="12"/>
+  <circle cy="12" r="10" fill="url(#g)">
+    <animate attributeName="cx" values="100;1100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="12" r="2.5" fill="#ffffff">
+    <animate attributeName="cx" values="100;1100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
