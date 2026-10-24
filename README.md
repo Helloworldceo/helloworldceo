@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b3a5c,50:4a6fa5,100:7FA8D1&height=200&section=header&text=Dawit%20Abdisa%20%E5%A4%A7%E5%8D%AB&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=50" width="100%"/>
-
-### AI Engineer · AI & Network Security
+<img src="./assets/header.svg" width="100%" alt="Dawit Abdisa — AI Engineer · AI & Network Security"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7FA8D1&center=true&vCenter=true&width=600&lines=Agentic+AI+%E2%80%A2+LangChain+%2F+LangGraph;LLM+%26+Network+Security+Red-Teaming;Full-Stack%3A+React+%2F+Node+%2F+Python+%2F+Java;CSC+Scholar+%E2%80%A2+USTC+%E2%80%A2+Suzhou%2C+China)](https://git.io/typing-svg)
 
@@ -12,6 +10,8 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=Helloworldceo&color=7FA8D1&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Helloworldceo)
 
 </div>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ## About
 
@@ -32,6 +32,8 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 
 </div>
 
+<img src="./assets/divider.svg" width="100%"/>
+
 ## 🚀 Featured projects
 
 | Project | What it does | Stack |
@@ -42,6 +44,8 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 | 🗃️ **[sql-data-analyst-assistant](https://github.com/Helloworldceo/sql-data-analyst-assistant)** | Natural language → SQL, with auto-generated charts and AI summaries of the results | Python · LangChain · Streamlit · SQLite / PostgreSQL |
 | 🔍 **[network-traffic-analyzer](https://github.com/Helloworldceo/network-traffic-analyzer)** | TCP sniffer that flags port scans and cleartext credentials in live traffic | Python · Scapy |
 | ✉️ **[todo-email-automation-agent](https://github.com/Helloworldceo/todo-email-automation-agent)** | AI agent that turns plain-English task reminders into professional emails and sends them on schedule | Python · DeepSeek · Streamlit · Gmail |
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ## 🐍 Contribution snake
 
@@ -55,6 +59,8 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 
 </div>
 
+<img src="./assets/divider.svg" width="100%"/>
+
 ## 📊 GitHub stats
 
 <div align="center">
@@ -65,6 +71,8 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Helloworldceo&theme=tokyonight&hide_border=true" />
 
 </div>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ## 🎮 Beyond the keyboard
 
@@ -82,7 +90,7 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7FA8D1,50:4a6fa5,100:1b3a5c&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%"/>
 
 <div align="center">
 <sub>Based in Suzhou, China · open to opportunities across AI engineering, full-stack, and security</sub>
