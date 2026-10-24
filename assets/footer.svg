@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <style>
+    .w { animation: drift 16s linear infinite } .w2 { animation-duration: 24s; animation-direction: reverse } .w3 { animation-duration: 11s }
+    @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
+  </style>
+  <g class="w w2" opacity="0.35"><path fill="#7FA8D1" d="M0 50 Q150 20 300 50 T600 50 T900 50 T1200 50 T1500 50 T1800 50 T2100 50 T2400 50 V120 H0Z"/></g>
+  <g class="w" opacity="0.6"><path fill="#4a6fa5" d="M0 70 Q100 45 200 70 T400 70 T600 70 T800 70 T1000 70 T1200 70 T1400 70 T1600 70 T1800 70 T2000 70 T2200 70 T2400 70 V120 H0Z"/></g>
+  <g class="w w3"><path fill="#1b3a5c" d="M0 90 Q200 70 400 90 T800 90 T1200 90 T1600 90 T2000 90 T2400 90 V120 H0Z"/></g>
+</svg>
