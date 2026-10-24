@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1626"/>
+      <stop offset="0.55" stop-color="#14304f"/>
+      <stop offset="1" stop-color="#1b3a5c"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#7FA8D1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9cc3ea" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7FA8D1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#cfe3f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+      <animate attributeName="x1" values="-1;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#9cc3ea" stop-opacity="1"/>
+      <stop offset="1" stop-color="#9cc3ea" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7FA8D1" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="280" rx="14"/></clipPath>
+    <style>
+      .flow { fill: none; stroke: #4a6fa5; stroke-width: 1.4; stroke-dasharray: 6 10; animation: dash 3s linear infinite; opacity: .55 }
+      .flow.b { stroke: #7FA8D1; animation-duration: 4.5s; opacity: .4 }
+      @keyframes dash { to { stroke-dashoffset: -64 } }
+      .node { fill: #7FA8D1; animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1) } 50% { opacity: 1; transform: scale(1.6) } }
+      .wave { animation: drift 14s linear infinite }
+      .wave.slow { animation-duration: 22s }
+      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
+      .title { font: 700 54px 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; animation: rise 1.2s ease-out both }
+      .sub { font: 500 20px 'Fira Code', 'SFMono-Regular', Consolas, monospace; fill: #9cc3ea; letter-spacing: 2px; animation: rise 1.2s .4s ease-out both }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+      .scan { animation: scan 5s ease-in-out infinite }
+      @keyframes scan { 0% { transform: translateX(-400px) } 100% { transform: translateX(1300px) } }
+      .cursor { animation: blink 1s steps(1) infinite } @keyframes blink { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="280" fill="url(#bg)"/>
+    <rect width="1200" height="280" fill="url(#grid)"/>
+
+    <!-- data-flow lines -->
+    <path id="p1" class="flow" d="M-20 70 C 200 20, 330 140, 520 90 S 860 30, 1220 110"/>
+    <path id="p2" class="flow b" d="M-20 200 C 180 250, 380 150, 600 210 S 950 260, 1220 180"/>
+    <path id="p3" class="flow" d="M-20 140 C 240 170, 420 60, 700 140 S 1000 200, 1220 60"/>
+
+    <!-- packets travelling along the flows -->
+    <circle r="9" fill="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="3" fill="#e6f1fc"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="9" fill="url(#glow)"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="3" fill="#e6f1fc"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="9" fill="url(#glow)"><animateMotion dur="8s" begin="-5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p3"/></animateMotion></circle>
+    <circle r="3" fill="#e6f1fc"><animateMotion dur="8s" begin="-5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p3"/></animateMotion></circle>
+
+    <!-- network nodes -->
+    <g>
+      <circle class="node" cx="120" cy="55" r="3"/>
+      <circle class="node" cx="260" cy="230" r="2.5" style="animation-delay:.6s"/>
+      <circle class="node" cx="1040" cy="60" r="3" style="animation-delay:1.2s"/>
+      <circle class="node" cx="1110" cy="215" r="2.5" style="animation-delay:1.8s"/>
+      <circle class="node" cx="930" cy="245" r="2" style="animation-delay:.9s"/>
+      <circle class="node" cx="70" cy="190" r="2" style="animation-delay:2.1s"/>
+      <circle class="node" cx="1160" cy="130" r="2" style="animation-delay:1.5s"/>
+    </g>
+
+    <!-- light sweep -->
+    <rect class="scan" x="0" y="0" width="260" height="280" fill="url(#shine)" opacity="0.08"/>
+
+    <!-- bottom waves -->
+    <g class="wave slow" opacity="0.35">
+      <path fill="#4a6fa5" d="M0 250 Q150 225 300 250 T600 250 T900 250 T1200 250 T1500 250 T1800 250 T2100 250 T2400 250 V280 H0Z"/>
+    </g>
+    <g class="wave" opacity="0.5">
+      <path fill="#7FA8D1" d="M0 262 Q100 245 200 262 T400 262 T600 262 T800 262 T1000 262 T1200 262 T1400 262 T1600 262 T1800 262 T2000 262 T2200 262 T2400 262 V280 H0Z"/>
+    </g>
+
+    <!-- text -->
+    <text class="title" x="600" y="138" text-anchor="middle" fill="url(#txt)">Dawit Abdisa 大卫</text>
+    <text class="sub" x="600" y="182" text-anchor="middle">&gt; AI Engineer · AI &amp; Network Security<tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
