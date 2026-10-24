@@ -42,8 +42,8 @@ Software / AI Engineer shipping full products end-to-end — applied AI (RAG, ag
 <a href="https://github.com/Helloworldceo/AI-Agent-Red-Team">
   <img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=AI-Agent-Red-Team&theme=tokyonight&hide_border=true" />
 </a>
-<a href="https://github.com/Helloworldceo/prompt-injection-scanner">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=prompt-injection-scanner&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/Helloworldceo/vpn-fleet-manager">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=vpn-fleet-manager&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/Helloworldceo/rag-assistant">
