@@ -34,30 +34,14 @@ Software / AI Engineer shipping full products end-to-end, across applied AI (RAG
 
 ## 🚀 Featured projects
 
-<div align="center">
-
-<a href="https://github.com/Helloworldceo/AI-Agent-Red-Team">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=AI-Agent-Red-Team&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Helloworldceo/vpn-fleet-manager">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=vpn-fleet-manager&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/Helloworldceo/rag-assistant">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=rag-assistant&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Helloworldceo/sql-data-analyst-assistant">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=sql-data-analyst-assistant&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/Helloworldceo/network-traffic-analyzer">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=network-traffic-analyzer&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Helloworldceo/todo-email-automation-agent">
-<img height="165em" src="https://github-readme-stats.vercel.app/api/pin/?username=Helloworldceo&repo=todo-email-automation-agent&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
+| Project | What it does | Stack |
+|---|---|---|
+| 🛡️ **[AI-Agent-Red-Team](https://github.com/Helloworldceo/AI-Agent-Red-Team)** · [live demo](https://helloworldceo.github.io/AI-Agent-Red-Team) | Red-teaming for tool-calling and RAG-backed AI agents: multi-turn attacks, injection via retrieved docs, and a daily findings log | Python · FastAPI · LangGraph · React |
+| 🌐 **[vpn-fleet-manager](https://github.com/Helloworldceo/vpn-fleet-manager)** | Spring Boot back office for a VPN fleet: node management and client config issuance | Java 17 · Spring Boot · MyBatis · PostgreSQL · Redis · Docker |
+| 📚 **[rag-assistant](https://github.com/Helloworldceo/rag-assistant)** | Talk to your documents: upload PDFs or text, ask questions, get grounded answers with inline citations and conversation memory | Python · LangChain · Streamlit |
+| 🗃️ **[sql-data-analyst-assistant](https://github.com/Helloworldceo/sql-data-analyst-assistant)** | Natural language → SQL, with auto-generated charts and AI summaries of the results | Python · LangChain · Streamlit · SQLite / PostgreSQL |
+| 🔍 **[network-traffic-analyzer](https://github.com/Helloworldceo/network-traffic-analyzer)** | TCP sniffer that flags port scans and cleartext credentials in live traffic | Python · Scapy |
+| ✉️ **[todo-email-automation-agent](https://github.com/Helloworldceo/todo-email-automation-agent)** | AI agent that turns plain-English task reminders into professional emails and sends them on schedule | Python · DeepSeek · Streamlit · Gmail |
 
 ## 🐍 Contribution snake
 
